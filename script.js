@@ -1,3 +1,5 @@
+registerServiceWorker() // to get the chache data
+
 const keys = document.querySelectorAll('.box');
 var isRecording = false;
 
@@ -65,4 +67,8 @@ function saveRecording(mediaRecorder){
     if(mediaRecorder.state == "recording"){
         // ask to user save recording
     }
+}
+
+function registerServiceWorker(){
+    navigator.serviceWorker.register('sw.js')
 }
