@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="photos/recorder.png">
+    <link rel="manifest" href="manifest.json">
     <script src="script.js" defer></script>
     <title>DRUM PAD</title>
 </head>
 <body>
+
+    <img id="recorder" src="photos/recorder.png" class="microphone" 
+         width="50" height="120" onclick="record()">
+    
     <div class="drum">
         <div data-note="clap" class="box pad-1" >1</div>
         <div data-note="crash" class="box pad-2">2</div>

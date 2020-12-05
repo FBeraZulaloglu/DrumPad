@@ -22,6 +22,7 @@ html,body
 }
 
 .box{
+    border-radius: 10%;
     width: 100px;
     height: 100px;
     margin: 12px 1px;
@@ -51,4 +52,9 @@ html,body
 
   .pad-7, .pad-8, .pad-9 { 
     border: 2px solid #1EBC80;  
+  }
+
+  .microphone{
+    margin-left: auto;
+    margin-right: 50px;
   }
